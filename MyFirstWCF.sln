@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFAPPClient", "WCFAPPClien
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tcpWCF", "tcpWCF", "{4905E954-AEC6-4031-B14E-11FC2C6AC3C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPWCFServer", "TCPWCFServer\TCPWCFServer.csproj", "{C2183436-C1A4-4283-8542-0DDC1EB5F9F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPWCFClient", "TCPWCFClient\TCPWCFClient.csproj", "{E6B1155B-F9BC-40E6-B7FD-FBB1AD5DFEE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,9 +27,21 @@ Global
 		{E9D9ECD3-1F3B-4BFA-BBB4-C871F31FC7D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9D9ECD3-1F3B-4BFA-BBB4-C871F31FC7D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9D9ECD3-1F3B-4BFA-BBB4-C871F31FC7D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2183436-C1A4-4283-8542-0DDC1EB5F9F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2183436-C1A4-4283-8542-0DDC1EB5F9F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2183436-C1A4-4283-8542-0DDC1EB5F9F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2183436-C1A4-4283-8542-0DDC1EB5F9F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6B1155B-F9BC-40E6-B7FD-FBB1AD5DFEE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B1155B-F9BC-40E6-B7FD-FBB1AD5DFEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6B1155B-F9BC-40E6-B7FD-FBB1AD5DFEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B1155B-F9BC-40E6-B7FD-FBB1AD5DFEE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2183436-C1A4-4283-8542-0DDC1EB5F9F3} = {4905E954-AEC6-4031-B14E-11FC2C6AC3C6}
+		{E6B1155B-F9BC-40E6-B7FD-FBB1AD5DFEE8} = {4905E954-AEC6-4031-B14E-11FC2C6AC3C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3CD09091-DD4E-4BDF-91A8-689A6FC20D2D}
