@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstWCF", "MyFirstWCF.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFAPPClient", "WCFAPPClient\WCFAPPClient.csproj", "{E9D9ECD3-1F3B-4BFA-BBB4-C871F31FC7D9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tcpWCF", "tcpWCF", "{4905E954-AEC6-4031-B14E-11FC2C6AC3C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
